@@ -10,13 +10,13 @@ from tqdm import tqdm
 # Function to simulate a mouse click at given coordinates
 def click(x, y):
 	win32api.SetCursorPos((x, y))
-	win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, 1, 1, 0, 0)
-	win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, -1, -1, 0, 0)
+	win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, 2, 2, 0, 0)
+	win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, -2, -2, 0, 0)
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, x, y, 0, 0)
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, x, y, 0, 0)
 	time.sleep(.01)
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, x, y, 0, 0)
-	time.sleep(.01)
+	time.sleep(.02)
 
 # Define coordinates for various actions
 firstX, firstY = 880, 230
@@ -34,8 +34,7 @@ step = (stepX + stepY) / 2
 pixels = {}
 
 # Load the image and process its pixels
-# imageName = input("Image name:")
-imageName = "sigma.png"
+imageName = input("Image name:")
 image = Image.open(imageName)
 if image.size[0] != 32 or image.size[1] != 32:
 	print("Resizing image")
@@ -108,8 +107,7 @@ for color in tqdm(pixels):
 		clickFastPixel(pixel[0], pixel[1])
 		if keyboard.is_pressed('q'):
 			quit()
-		time.sleep(.01)
-#
+
 
 while keyboard.is_pressed('q') == False:
 	s = pyautogui.screenshot()
