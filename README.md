@@ -9,15 +9,15 @@ This repository contains a script designed to automate painting actions in the R
 ## Features
 
 -   Simulates mouse clicks and movements based on the provided image.
--   Converts the image into a format suitable for the game.
+-   Converts the image into 32x32.
 -   Can be compiled into a standalone executable.
 
 ## Prerequisites
 
--   Python 3.8
+-   Python 3.8 or newer
 
 ## Installation
-
+USING GIT BASH
 1. Clone the repository:
 
 ```batch
@@ -37,17 +37,17 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
+0. Add an image to the project folder where `main.py` is located.
 1. Start the "Starving Artist" game on Roblox.
-2. Position the game window appropriately (Fullscreen is recommended on a 1920x1080 screen)
+2. Mamimise the window. Taskbar should still be visible.
 
 3. Run the bot script:
 
 ```batch
-python bot.py
+python main .py
 ```
 
-4. Follow the on-screen instructions.
+4. type in the image name with the file type e.g. `kitten.png`
 
 ## Contributing
 
