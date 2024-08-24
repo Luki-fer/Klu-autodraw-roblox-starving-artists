@@ -22,7 +22,7 @@ firstX, firstY = 664, 175
 lastX, lastY = 1254, 765
 openButtonX, openButtonY = 1084, 822
 inputX, inputY = 1081, 740
-closeButtonX, closeButtonY = 1319, 538
+closeButtonX, closeButtonY = 1323, 462
 
 diffX = lastX - firstX
 diffY = lastY - firstY
@@ -121,3 +121,5 @@ while keyboard.is_pressed('q') == False:
 		break
 	click(closeButtonX, closeButtonY)
 	time.sleep(0.1)
+
+# original 1080p version. Painting clicks don't work but picking color works. close button x,y changed - Lukifer
