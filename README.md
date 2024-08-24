@@ -14,7 +14,8 @@ This repository contains a script designed to automate painting actions in the R
 
 ## Prerequisites
 
--   Python 3.8 or newer
+-   [Python 3.8 or newer](https://www.python.org/downloads/)
+-   [Git](https://git-scm.com/downloads)
 
 ## Installation
 USING GIT BASH
@@ -44,7 +45,7 @@ pip install -r requirements.txt
 3. Run the bot script:
 
 ```batch
-python main .py
+python main.py
 ```
 
 4. type in the image name with the file type e.g. `kitten.png`
