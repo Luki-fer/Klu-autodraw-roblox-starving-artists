@@ -5,6 +5,7 @@ This repository contains a script designed to automate painting actions in the R
 > **Note**: This is a project I made a while ago and just wanted to share with the community. While I don't plan on further developing it, I'll still maintain it and address any issues that may arise.
 
 > **Disclaimer**: Using this script can theoretically get you banned from the game or Roblox platform. It's specifically designed for the "Starving Artists" game on Roblox. Use at your own risk and always respect the terms of service of the game and platform.
+>                 **INTENDED FOR 1440p FORK. FOR 1080p SEE THE ORIGINAL REPO**
 
 ## Features
 
@@ -16,6 +17,7 @@ This repository contains a script designed to automate painting actions in the R
 
 -   [Python 3.8 or newer](https://www.python.org/downloads/)
 -   [Git](https://git-scm.com/downloads)
+-   2560x1440p Resolution
 
 ## Installation
 USING GIT BASH
