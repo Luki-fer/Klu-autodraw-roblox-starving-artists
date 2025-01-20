@@ -1,6 +1,6 @@
 import pyautogui
 import time
-import virtualkeystroke as vkey
+import typer
 import keyboard
 import win32api, win32con
 from PIL import Image
@@ -87,7 +87,7 @@ def selectColor(color):
 	time.sleep(.01)
 	click(inputX, inputY)
 	time.sleep(.01)
-	vkey.typer(string=hexColor)
+	typer.typer(string=hexColor)
 	time.sleep(.01)
 	click(closeButtonX, closeButtonY)
 
