@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ## Usage
 0. Add an image to the project folder where `main.py` is located.
 1. Start the "Starving Artist" game on Roblox.
-2. Maximise the window. Taskbar should still be visible.
+2. Maximize the window. Taskbar should still be visible.
 
 3. Run the bot script:
 
